@@ -19,6 +19,7 @@ export default class ClienteServicio {
       ref.orderBy('nombre', 'asc')
     );
   }
+  /*
   getClientes(): Observable <Cliente[]> {
     //obtener clientes
     this.clientes = this.clientesColeccion?.snapshotChanges().pipe(
@@ -31,6 +32,7 @@ export default class ClienteServicio {
     );
      this.clientes;
   }
+  */
 }
 
 //configurando cliente servicios
