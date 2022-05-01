@@ -6,9 +6,6 @@ import { AngularFireModule } from '@angular/fire/compat'
 import { AngularFireAuthModule } from "@angular/fire/compat/auth";
 import  {AngularFirestoreModule } from '@angular/fire/compat/firestore'; 
 
-
-
-
 import { FlashMessagesModule } from 'angular2-flash-messages';
 import { FormsModule } from '@angular/forms';
 
